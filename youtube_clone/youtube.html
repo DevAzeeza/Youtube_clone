@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/video.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt="logo">
+            <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="img">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"> 
+                <img class="search-icon" src="./icons/search.svg" alt="search">
+                 <!-- having absolute element inside relative element-->
+                <div class="tooltip">Search</div>                                       
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="./icons/voice-search-icon.svg" alt="voice">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="./icons/upload.svg" alt="icon">
+                <div class="tooltip">Create</div>                                       
+            </div>
+            <div class="youtube-apps-container">
+                <img class="youtube-apps-icon" src="./icons/youtube-apps.svg" alt="icon">
+                <div class="tooltip">Youtube Apps</div> 
+            </div>
+            <div class="notifications-container">
+                <div class="notifications-icon-container">                                                
+                    <img class="notifications-icon" src="./icons/notifications (1).svg" alt="icon">  
+                    <div class="notifications-count">3</div>                                      
+                </div>  
+                    <div class="tooltip">Notifications</div> 
+            </div>   
+                
+          
+
+            <img class="current-user-picture" class="" src="./channel-pictures/profile.jpg" alt="profile">
+        </div>
+    </header>
+
+
+    <nav class="sidebar">
+       <div class="sidebar-link">
+        <img src="./icons/home.svg" alt="home">
+        <div>home</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="./icons/explore.svg" alt="explore">
+        <div>Explore</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="./icons/subscriptions.svg" alt="subscription">
+        <div>Subscriptions</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="./icons/originals.svg" alt="originals">
+        <div>Originals</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="./icons/youtube-music.svg" alt="ytmusic">
+        <div>YouTube Music</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="./icons/library.svg" alt="library">
+        <div>Library</div>
+       </div>
+    </nav>
+
+    <main>
+    <section class="video-grid">                                                         
+        <div class="video-preview">
+            <div class="thumbnail-row">                                                
+                <img class="thumbnail" src="./Thumbnail/Tech with sundarPichai.avif" alt="img">
+                <div class="video-time">9:41</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/nothing but tech.jpg" alt="profilepic">
+                   
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech With Google CEO Sundar Pichai!!
+                    </p>
+                    <p class="video-author">
+                        NothingButTech
+                    </p>
+                    <p class="video-stats">
+                        1.4M views &#183 1 year ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-3.avif" alt="img">
+                <div class="video-time">10:17</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-3.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        15" MacBook Air - TOP 10 THINGS TO DO!!!
+                    </p>
+                    <p class="video-author">
+                        Hayls World
+                    </p>
+                    <p class="video-stats">
+                        36K views &#183 6 days ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-2.webp" alt="img">
+                <div class="video-time">8:22</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-2.jpeg" alt="profilepic">
+                   
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-stats">
+                        20M views &#183 4 years ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-4.avif" alt="img">
+                <div class="video-time">17:34</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-4.jpg" alt="profilepic">
+                 
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Why Gravity is NOT a Force
+                    </p>
+                    <p class="video-author">
+                        Veritasium
+                    </p>
+                    <p class="video-stats">
+                        10M views &#183 2 years ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-5.avif" alt="img">
+                <div class="video-time">26:23</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-5.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        We finally play Minecraft! Minecraft with Marzia - Part 1
+                    </p>
+                    <p class="video-author">
+                        PewDiePie
+                    </p>
+                    <p class="video-stats">
+                        23M views &#183 3 year ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-6.webp" alt="img">
+                <div class="video-time">7:13</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-6.jpeg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Inside The World's Biggest Passenger Plane
+                    </p>
+                    <p class="video-author">
+                        Tech Vision
+                    </p>
+                    <p class="video-stats">
+                        8.4M views &#183 2 years ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-7.avif" alt="img">
+                <div class="video-time">14:47</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-7.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        $1 vs $1,000,000,000 Yatch!
+                    </p>
+                    <p class="video-author">
+                        MrBeast
+                    </p>
+                    <p class="video-stats">
+                        166M views &#183 1 month ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-8.avif" alt="img"
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-8.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        10 Best Places to Visit in Canada - Travel Video
+                    </p>
+                    <p class="video-author">
+                        touropia
+                    </p>
+                    <p class="video-stats">
+                        3.2M views &#183 3 years ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-9.avif" alt="img">
+                <div class="video-time">12:48</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-9.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        ASMR MUKBANG |  직접 만든 불닭 짜장 버섯 양념치킨 소세지 먹방 & 레시피 FRIED CHICKEN AND FIRE NOODLES EATING
+                    </p>
+                    <p class="video-author">
+                        SULGI
+                    </p>
+                    <p class="video-stats">
+                        48M views &#183 7 months ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-10.avif" alt="img">
+                <div class="video-time">30:05</div>                            
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-10.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        How Satellite Images Reveal What’s Happening in Ukraine
+                    </p>
+                    <p class="video-author">
+                        RealLifeLore
+                    </p>
+                    <p class="video-stats">
+                        2.5M views &#183 5 months ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-11.avif" alt="img">
+                <div class="video-time">5:51</div>                                
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-11.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        How I Trained My Cats
+                    </p>
+                    <p class="video-author">
+                        JunsKitch
+                    </p>
+                    <p class="video-stats">
+                        76M views &#183 5 years ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div>
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./Thumbnail/thumbnail-12.avif" alt="img">
+                <div class="video-time">8:58</div>                             
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-pictures/profilepicture-12.jpg" alt="profilepic">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        A Day As a Wife - Sister Minnie
+                    </p>
+                    <p class="video-author">
+                        Zainah & Minnie
+                    </p>
+                    <p class="video-stats">
+                        369K Views views &#183 5 months ago
+                    </p>
+    
+                </div>
+    
+            </div>
+           
+        </div> 
+
+    </section>
+    </main>
+    </body>
+    </html>
+
+
+   
+   
